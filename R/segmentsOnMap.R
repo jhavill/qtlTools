@@ -206,7 +206,7 @@ segmentsOnMap<-function(cross, phe, chr, l, h, peaklod = NA, peakcM = NA, calcCi
        xlab="Chromosome", ylab = "Genetic Position (cM)",
        xlim=c(min(chrns), max(chrns)+1),
        xaxt = "n",
-      cex.lab = 2)
+      cex.lab = 1.5)
   axis(1, at = chrns, labels = chrnames(cross))
   segments(x0=chrns, x1=chrns, y0=rep(0, nchr(cross)), y1=chrlens)
   if(is.null(tick.width)){
