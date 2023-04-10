@@ -203,7 +203,7 @@ segmentsOnMap<-function(cross, phe, chr, l, h, peaklod = NA, peakcM = NA, calcCi
   dat.ci<-dat
   plot(chrns, rep(0, nchr(cross)), bty="n",type="n",
        ylim=c(max(chrlens),0),
-       xlab="Chromosome", ylab = "Genetic Position (cM)",
+       xlab="Linkage Group", ylab = "Genetic Position (cM)",
        xlim=c(min(chrns), max(chrns)+1),
        xaxt = "n",
       cex.lab = 1.5)
